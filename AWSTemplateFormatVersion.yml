@@ -3,7 +3,7 @@ Description: AWS CloudFormation Template to create a VPC with public and private
 
 Parameters:
   KeyName:
-    Description: Name of an existing EC2 KeyPair to enable SSH access to the instances
+    Description: awskeypair
     Type: String
 
 Resources:
